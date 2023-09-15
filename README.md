@@ -3,8 +3,6 @@
 ## Overview
 This project aims to provide a tool for identifying naming convention clusters from a security perspective. By analyzing usernames, you can uncover patterns that may be indicative of security threats or user behaviors. The script allows you to perform hierarchical clustering on a dataset of usernames and discover clusters of similar naming conventions.
 
-## Project Demo
-
 ## Table of Contents
 + [Getting Started](#getting-started)
     + [Prerequisites](#prerequisites)
@@ -62,15 +60,15 @@ Before you can run the script, prepare your dataset of usernames in a CSV file w
 
 
 ## Features
-+ **Feature Engineering**: Extracts relevant features from usernames, including length, special characters, numbers, and more.
+- [x] **Feature Engineering**: Extracts relevant features from usernames, including length, special characters, numbers, and more.
 
-+ **Hierarchical Clustering**: Groups usernames into clusters based on similarity in naming conventions.
+- [x] **Hierarchical Clustering**: Groups usernames into clusters based on similarity in naming conventions.
 
-+ **Silhouette Analysis**: Determines the optimal number of clusters for the dataset.
+- [x] **Silhouette Analysis**: Determines the optimal number of clusters for the dataset.
 
-+ **Key Feature Identification**: Identifies key features that define each cluster.
+- [x] **Key Feature Identification**: Identifies key features that define each cluster.
 
-+ **Visualization**: Visualizes the hierarchical clustering using dendrograms and silhouette score plots.
+- [x] **Visualization**: Visualizes the hierarchical clustering using dendrograms and silhouette score plots.
 
 ## Optimizing the Analysis
 To enhance the effectiveness of the username clustering analysis:
