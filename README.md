@@ -6,17 +6,17 @@ This project aims to provide a tool for identifying naming convention clusters f
 ## Project Demo
 
 ## Table of Contents
-+ Getting Started
-    + Prerequisites
-    + Installation
-+ Usage
-+ Input Data
-+ Running the Script
-+ Features
-+ Optimizing the Analysis
-+ Demo
-+ Contributing
-+ License
++ [Getting Started](#getting-started)
+    + [Prerequisites](#prerequisites)
+    + [Installation](#installation)
++ [Usage](#usage)
+    + [Input Data](#input-data)
+    + [Running the Script](#running-the-script)
++ [Features](#features)
++ [Optimizing the Analysis](#optimizing-the-analysis)
++ [Demo](#demo)
++ [Contributing](#contributing)
++ [License](#license)
 
 ## Getting Started
 ### Prerequisites
