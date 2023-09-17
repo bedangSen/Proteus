@@ -88,7 +88,9 @@ You can customize Proteus to tailor its behavior to your specific dataset and an
 + `--visualise_clusters`: Enabling this parameter (--visualise_clusters) triggers the generation of interactive t-SNE (t-Distributed Stochastic Neighbor Embedding) plots. These plots provide a visual representation of the clustering results. t-SNE is a dimensionality reduction technique that can help you explore the structure of your clusters in a 2D space. This feature is particularly useful for gaining insights into how your usernames are grouped.
 
 ## Demo
-See Proteus in action! Demo Video (Coming Soon)
+See Proteus in action! Demo Video
+
+https://github.com/bedangSen/Proteus/assets/35425072/8de166b2-e9cd-495a-9a77-9e367f0f39e5
 
 ## Contributing
 Contributions to Proteus are welcome. Feel free to open issues, suggest enhancements, or submit pull requests.
