@@ -61,7 +61,7 @@ def parse_arguments():
     output_group = parser.add_argument_group("Outputs")
     output_group.add_argument("--visualize", action="store_true", help="Visualize clusters", default=False)
     output_group.add_argument("--output_folder", default="output", help="Output folder")
-    output_group.add_argument("--output_file", default="output.csv", help="Output file")
+    output_group.add_argument("--output_file", help="Output file")
     
     logging_level = ["debug", "info", "warning", "error", "critical"]
     output_group.add_argument("--log", metavar="LOGGING_LEVEL", choices=logging_level, default="info", help=f"Select the logging level. Keep in mind increasing verbosity might affect performance. Available choices include : {logging_level}")
@@ -246,6 +246,9 @@ def output_data(df, args):
         log.info(f" |__ [-] Creating output folder {args.output_folder}...")
         makedirs(args.output_folder)
         log.info(f"      |__ [+] Created output folder {args.output_folder}.")
+
+    if not args.output_file:
+        args.output_file = f"{basename(args.filename).split('.')[0]}_clustered.csv"
 
     df.to_csv(join(args.output_folder, args.output_file), index=False)
     log.info(f" |__ [+] Outputted data to {join(args.output_folder, args.output_file)}.")
