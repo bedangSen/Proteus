@@ -4,6 +4,8 @@
 
 Proteus is a tool designed to identify naming convention clusters from a security perspective. By analyzing usernames, it helps you uncover patterns indicative of security threats or user behaviors. The script performs hierarchical clustering on a dataset of usernames to discover clusters with similar naming conventions.
 
+https://github.com/bedangSen/Proteus/assets/35425072/8de166b2-e9cd-495a-9a77-9e367f0f39e5
+
 ## Table of Contents
 + [Getting Started](#getting-started)
     + [Prerequisites](#prerequisites)
